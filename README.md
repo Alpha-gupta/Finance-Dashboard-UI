@@ -6,6 +6,12 @@ This project focuses on **UI/UX design, component structure, and state managemen
 
 ---
 
+## 🌐 Live Demo
+
+🔗 https://finance-dashboard-ui-omega-nine.vercel.app/
+
+---
+
 ## 🚀 Tech Stack
 
 * **React (JSX)**
@@ -41,7 +47,7 @@ This project focuses on **UI/UX design, component structure, and state managemen
 * Search and filter transactions
 * Sort by date and amount
 * Empty state handling for better UX
-* ✏️ Edit transactions (inline)
+* ✏️ Edit transactions
 * ➕ Add transactions (Admin only)
 
 ---
@@ -52,6 +58,7 @@ This project focuses on **UI/UX design, component structure, and state managemen
 
   * **Viewer** → Read-only access
   * **Admin** → Can add/edit transactions
+
 * Simulated frontend RBAC (no backend)
 
 ---
@@ -115,7 +122,7 @@ src/
 
 ---
 
-## ⚙️ Getting Started
+## ⚙️ Getting Started (Local Setup)
 
 ### 1️⃣ Install dependencies
 
@@ -130,21 +137,7 @@ npm run dev
 ```
 
 👉 Open in browser:
-`http://localhost:5173`
-
----
-
-### 3️⃣ Build for production
-
-```bash
-npm run build
-```
-
-### 4️⃣ Preview production build
-
-```bash
-npm run preview
-```
+http://localhost:5173
 
 ---
 
@@ -185,4 +178,4 @@ B.Tech CSE | MANIT Bhopal
 
 ## ⭐ Support
 
-If you liked this project, consider giving it a ⭐ on GitHub!
+If you found this project useful, consider giving it a ⭐ on GitHub!
