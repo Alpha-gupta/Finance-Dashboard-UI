@@ -1,41 +1,188 @@
-# Finance Dashboard UI
+# 💰 Finance Dashboard UI
 
-A clean React + Vite finance dashboard built with Tailwind CSS, Zustand state management, and Recharts visualizations.
+A clean and responsive **Finance Dashboard** built to help users track income, expenses, and understand their financial activity in a simple and intuitive way.
 
-## Features
+This project focuses on **UI/UX design, component structure, and state management**, using mock data without any backend dependency.
 
-- Summary cards for current balance, total income, total expenses, and savings rate
-- Time-based line chart for monthly income and expense trends
-- Categorical pie chart for spending breakdown
-- Transaction list with search, sorting, and admin-powered add transaction form
-- Role switcher to simulate Viewer vs Admin behavior
-- Insights panel with top spending, monthly comparison, and largest transaction
-- Local storage persistence for transactions, role, filters, and sort state
+---
 
-## Setup
+## 🚀 Tech Stack
 
-1. Install dependencies:
+* **React (JSX)**
+* **Vite**
+* **Tailwind CSS**
+* **Zustand** (state management)
+* **Recharts** (data visualization)
+* **Local Storage** (basic persistence)
 
-   npm install
+---
 
-2. Run the development server:
+## 🔥 Core Features
 
-   npm run dev
+### 📊 Dashboard Overview
 
-3. Build for production:
+* Summary cards:
 
-   npm run build
+  * Current Balance
+  * Total Income
+  * Total Expenses
+  * Savings Rate
 
-## Notes
+* Charts:
 
-- Viewer role can browse summaries, charts, insights, and transactions
-- Admin role can add new transactions through the UI
-- The dashboard is intentionally static / frontend-only with mock data
+  * 📈 Line chart (monthly income vs expenses)
+  * 🥧 Pie chart (category-wise spending)
 
-## Improvements included
+---
 
-- Responsive layout for smaller screens
-- Graceful empty state handling in the transactions table
-- Visual polish with rounded cards and soft color palette
-- Local state persistence via `localStorage`
+### 🧾 Transactions Management
 
+* View all transactions in a clean table
+* Search and filter transactions
+* Sort by date and amount
+* Empty state handling for better UX
+* ✏️ Edit transactions (inline)
+* ➕ Add transactions (Admin only)
+
+---
+
+### 👤 Role-Based UI
+
+* Switch between:
+
+  * **Viewer** → Read-only access
+  * **Admin** → Can add/edit transactions
+* Simulated frontend RBAC (no backend)
+
+---
+
+### 💡 Insights Panel
+
+* Highest spending category
+* Monthly comparison
+* Largest transaction highlight
+
+---
+
+### 💾 Persistence
+
+* Data stored in **localStorage**
+* Saves:
+
+  * Transactions
+  * Role
+  * Filters
+  * Sorting state
+
+---
+
+### 🎨 UI Highlights
+
+* Clean **card-based design**
+* Responsive layout (works across devices)
+* Subtle visual effects (particles background)
+* Smooth and intuitive interactions
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+│── components/
+│   ├── Charts.jsx
+│   ├── DashboardCards.jsx
+│   ├── Insights.jsx
+│   ├── ParticlesBackground.jsx
+│   ├── RoleSwitcher.jsx
+│   ├── TransactionsTable.jsx
+│
+│── pages/
+│   └── Dashboard.jsx
+│
+│── store/
+│   └── useStore.js
+│
+│── data/
+│   └── mockData.js
+│
+│── utils/
+│
+│── App.jsx
+│── main.jsx
+│── index.css
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 2️⃣ Run development server
+
+```bash
+npm run dev
+```
+
+👉 Open in browser:
+`http://localhost:5173`
+
+---
+
+### 3️⃣ Build for production
+
+```bash
+npm run build
+```
+
+### 4️⃣ Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 💡 Approach
+
+The project is designed with a focus on:
+
+* Clean and modular component structure
+* Efficient state management using Zustand
+* Simple yet effective UI/UX decisions
+* Real-time updates without backend dependency
+
+---
+
+## ✨ Additional Highlights
+
+* Inline editing functionality
+* Form validation for better user experience
+* Role-based interaction simulation
+* Organized and scalable folder structure
+
+---
+
+## 📌 Notes
+
+* Uses **mock data only** (no backend API)
+* Designed to demonstrate frontend development skills
+* Data persists locally using browser storage
+
+---
+
+## 🙌 Author
+
+**Prashant Gupta**
+B.Tech CSE | MANIT Bhopal
+
+---
+
+## ⭐ Support
+
+If you liked this project, consider giving it a ⭐ on GitHub!
