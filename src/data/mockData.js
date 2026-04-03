@@ -1,0 +1,16 @@
+export const transactions = [
+  { id: 1, date: "2026-01-15", timestamp: "09:20", amount: 5000, category: "Salary", type: "income", paymentMode: "Direct Deposit" },
+  { id: 2, date: "2026-01-18", timestamp: "12:30", amount: 1500, category: "Rent", type: "expense", paymentMode: "Offline" },
+  { id: 3, date: "2026-02-02", timestamp: "14:15", amount: 2200, category: "Freelance", type: "income", paymentMode: "Online" },
+  { id: 4, date: "2026-02-05", timestamp: "18:40", amount: 800, category: "Groceries", type: "expense", paymentMode: "Online" },
+  { id: 5, date: "2026-02-08", timestamp: "08:50", amount: 120, category: "Subscriptions", type: "expense", paymentMode: "Online" },
+  { id: 6, date: "2026-03-01", timestamp: "09:00", amount: 5200, category: "Salary", type: "income", paymentMode: "Direct Deposit" },
+  { id: 7, date: "2026-03-03", timestamp: "13:20", amount: 1300, category: "Food", type: "expense", paymentMode: "Offline" },
+  { id: 8, date: "2026-03-06", timestamp: "07:15", amount: 300, category: "Transport", type: "expense", paymentMode: "Online" },
+  { id: 9, date: "2026-03-12", timestamp: "10:30", amount: 1800, category: "Freelance", type: "income", paymentMode: "Online" },
+  { id: 10, date: "2026-03-15", timestamp: "17:25", amount: 450, category: "Dining", type: "expense", paymentMode: "Offline" },
+  { id: 11, date: "2026-04-01", timestamp: "09:10", amount: 5400, category: "Salary", type: "income", paymentMode: "Direct Deposit" },
+  { id: 12, date: "2026-04-03", timestamp: "11:45", amount: 1600, category: "Rent", type: "expense", paymentMode: "Offline" },
+  { id: 13, date: "2026-04-07", timestamp: "15:50", amount: 280, category: "Utilities", type: "expense", paymentMode: "Online" },
+  { id: 14, date: "2026-04-10", timestamp: "19:05", amount: 650, category: "Shopping", type: "expense", paymentMode: "Online" },
+];

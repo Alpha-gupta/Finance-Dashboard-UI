@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+body.dark-mode {
+  color-scheme: dark;
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+body.light-mode {
+  color-scheme: light;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+body {
+  @apply min-h-screen bg-slate-50 text-slate-900 antialiased selection:bg-sky-200 selection:text-slate-900;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body.dark-mode .bg-white {
+  background-color: #0f172a !important;
+}
+
+body.dark-mode .bg-slate-50 {
+  background-color: #111827 !important;
+}
+
+body.dark-mode .bg-slate-100 {
+  background-color: #1e293b !important;
+}
+
+body.dark-mode .border-slate-200 {
+  border-color: #334155 !important;
+}
+
+body.dark-mode .text-slate-900 {
+  color: #f8fafc !important;
+}
+
+body.dark-mode .text-slate-700 {
+  color: #e2e8f0 !important;
+}
+
+body.dark-mode .text-slate-500 {
+  color: #cbd5e1 !important;
+}
+
+body.light-mode .bg-white {
+  background-color: #ffffff !important;
+}
+
+body.light-mode .bg-slate-50 {
+  background-color: #f8fafc !important;
+}
+
+body.light-mode .bg-slate-100 {
+  background-color: #eef2ff !important;
+}
+
+body.light-mode .border-slate-200 {
+  border-color: #e2e8f0 !important;
+}
+
+body.light-mode .text-slate-900 {
+  color: #0f172a !important;
+}
+
+body.light-mode .text-slate-700 {
+  color: #334155 !important;
+}
+
+body.light-mode .text-slate-500 {
+  color: #64748b !important;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(14px);
+  transform: translateZ(0);
+  animation-name: floatParticles;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes floatParticles {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.1);
+  }
+}
+
